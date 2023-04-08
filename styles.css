@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+.start {
+    background-color: bisque;
+    text-align: center;
+}
+.homepage {
+    background-image: url(hands-typing-keyboard-young-woman-smooth-light-against-white-background-171309972.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.homepage h1 {
+    text-align: center;
+    font-weight: bold;
+}
+.homepage p {
+    text-align: center;
+    font-size: 20px;
+}
+.homepage h3 {
+    margin: 0 auto;
+    width: 60%;
+}
+.homepage button {
+    margin: 0 auto;
+    height: 40px;
+    margin-top: 70px;
+}
+.homepage button:hover{
+    background-color: black;
+}
+@media (max-width: 767px) {
+    .float-md-right {
+      float: none;
+    }
+    
+    .title {
+      font-size: 24px;
+    }
+    
+    .btn-lg {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
+.col-md-6 h2{
+    font-weight: bold;
+    font-size: 40px;
+}
+/*style for help me Page*/
+@media only screen and (min-width: 1024px){
+    .col-md-3 ul{
+        margin-top: 40%;
+    }
+    #desc {
+        margin: 0 auto;
+        height: 100px;
+    }
+}
+.help-page {
+    background-image: url(top-view-desk-assortment-with-copy-space_23-2148928177\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.description {
+    background-image: url(plus.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+#desc {
+    color: white;
+    text-align: center;
+}
+.virtual h1 {
+    text-align: center;
+    font-weight: bold;
+    margin-top: 50px;
+}
+.virtual p {
+    text-align: center;
+}
+@media only screen and (min-width: 1024px){
+    .more {
+        margin-left: 10%;
+    }
+}
+#butn {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 38%;
+}
+#center {
+    align-items: center;
+    margin-left: 37%;
+}
+
+  
